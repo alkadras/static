@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//test.krononot.com/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://test.krononot.com/post-sitemap.xml</loc>
+		<lastmod>2022-02-03T01:25:17+02:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://test.krononot.com/category-sitemap.xml</loc>
+		<lastmod>2022-02-03T01:25:17+02:00</lastmod>
+	</sitemap>
+</sitemapindex>

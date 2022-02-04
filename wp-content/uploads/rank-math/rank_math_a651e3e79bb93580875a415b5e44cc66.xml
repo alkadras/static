@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//test.krononot.com/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://test.krononot.com/</loc>
+	</url>
+	<url>
+		<loc>https://test.krononot.com/merhaba-dunya/</loc>
+		<lastmod>2022-02-03T01:25:17+02:00</lastmod>
+		<image:image>
+			<image:loc>https://test.krononot.com/wp-content/uploads/2022/02/n7tjyrev7zo.jpg</image:loc>
+			<image:caption><![CDATA[white boat on body of water during daytime]]></image:caption>
+		</image:image>
+	</url>
+</urlset>
