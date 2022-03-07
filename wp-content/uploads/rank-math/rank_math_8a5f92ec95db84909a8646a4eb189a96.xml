@@ -4,15 +4,15 @@
 		<loc>https://test.krononot.com/</loc>
 	</url>
 	<url>
+		<loc>https://test.krononot.com/gizlilik-politikasi/</loc>
+		<lastmod>2022-03-04T21:56:51+02:00</lastmod>
+	</url>
+	<url>
 		<loc>https://test.krononot.com/gcs/</loc>
 		<lastmod>2022-02-05T02:22:35+02:00</lastmod>
 	</url>
 	<url>
 		<loc>https://test.krononot.com/ornek-sayfa/</loc>
 		<lastmod>2022-02-04T23:12:39+02:00</lastmod>
-	</url>
-	<url>
-		<loc>https://test.krononot.com/gizlilik-politikasi/</loc>
-		<lastmod>2022-02-04T22:37:05+02:00</lastmod>
 	</url>
 </urlset>
