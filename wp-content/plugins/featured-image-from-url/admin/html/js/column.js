@@ -6,9 +6,9 @@ function fifu_open_quick_lightbox() {
     jQuery("div.fifu-quick").on('click', function (evt) {
         evt.stopImmediatePropagation();
         post_id = jQuery(this).attr('post-id');
+        image_url = jQuery(this).attr('image-url');
         is_ctgr = jQuery(this).attr('is-ctgr');
-        background = jQuery(this).css('background-image');
-        url = (background ? background.split('"')[1] : null);
+        url = image_url;
         url = (url == 'about:invalid' ? '' : url);
         media = `<img id="fifu-quick-preview" src="${url}" post-id="${post_id}" style="max-height:600px; width:100%;">`;
         box = `

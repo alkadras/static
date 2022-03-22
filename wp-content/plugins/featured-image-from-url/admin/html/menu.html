@@ -270,6 +270,23 @@
                                             <?php $fifu['title']['html']() ?>
                                         </th>
                                         <th>
+                                            <?php $fifu['html']['check']() ?>
+                                        </th>
+                                        <th>
+                                            wp fifu content --check &lt;toggle&gt;
+                                        </th>
+                                        <th>
+                                            on, off
+                                        </th>
+                                    </tr>
+                                    <tr class="color">
+                                        <th>
+                                            <?php $fifu['tab']['auto']() ?>
+                                        </th>
+                                        <th>
+                                            <?php $fifu['title']['html']() ?>
+                                        </th>
+                                        <th>
                                             <?php $fifu['all']['ignore']() ?>
                                         </th>
                                         <th>
@@ -462,6 +479,23 @@
                                             wp fifu screenshot --scale &lt;integer&gt;
                                         </th>
                                         <th>400, 600, 800...</th>
+                                    </tr>
+                                    <tr class="color">
+                                        <th>
+                                            <?php $fifu['tab']['auto']() ?>
+                                        </th>
+                                        <th>
+                                            <?php $fifu['title']['screenshot']() ?>
+                                        </th>
+                                        <th>
+                                            <?php $fifu['screenshot']['tab']['resolution']() ?>
+                                        </th>
+                                        <th>
+                                            wp fifu screenshot --high &lt;toggle&gt;
+                                        </th>
+                                        <th>
+                                            on, off
+                                        </th>
                                     </tr>
                                     <tr class="color">
                                         <th>
@@ -2305,6 +2339,33 @@
                                             <?php $fifu['html']['decode']() ?>
                                         </th>
                                     </tr>
+                                    <tr>
+                                        <th>
+                                            <form
+                                                id="fifu_form_check"
+                                                action="javascript:void(0)"
+                                                method="post">
+                                                <input
+                                                    type="submit"
+                                                    href="javascript:void(0)"
+                                                    id="fifu_toggle_check"
+                                                    onclick="invert('check')"
+                                                    name="fifu_toggle_check"
+                                                    class="<?php echo $enable_check; ?>"
+                                                    value=""
+                                                    style="display:block;border:none">
+
+                                                <input
+                                                    type="hidden"
+                                                    id="fifu_input_check"
+                                                    name="fifu_input_check"
+                                                    value="" >
+                                            </form>
+                                        </th>
+                                        <th>
+                                            <?php $fifu['html']['check']() ?>
+                                        </th>
+                                    </tr>
                                 </table>
                             </div>
 
@@ -2546,6 +2607,7 @@
                             <li><a href="#tabsScreenshot-a"><?php $fifu['screenshot']['tab']['auto']() ?></a></li>
                             <li><a href="#tabsScreenshot-c"><?php $fifu['screenshot']['tab']['scale']() ?></a></li>
                             <li><a href="#tabsScreenshot-b"><?php $fifu['screenshot']['tab']['crop']() ?></a></li>
+                            <li><a href="#tabsScreenshot-d"><?php $fifu['screenshot']['tab']['resolution']() ?></a></li>
                             <br>
                             <br>
                             <div id="tabsScreenshot-a">
@@ -2602,6 +2664,22 @@
                                             <input type="submit" value="<?php $fifu['button']['submit']() ?>" disabled style="width: 85px">
                                         </th>
                                         <th></th>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="tabsScreenshot-d">
+                                <?php $fifu['screenshot']['resolution']['desc']() ?>
+                                <br><br>
+                                <table style="text-align:left">
+                                    <tr>
+                                        <th>
+                                            <input
+                                                type="submit"
+                                                href="javascript:void(0)"
+                                                class="toggleoff"
+                                                value=""
+                                                style="display:block;border:none">
+                                        </th>
                                     </tr>
                                 </table>
                             </div>
@@ -4848,7 +4926,8 @@
                                 <li><a href="#tabs-6"><?php $fifu['api']['tab']['category']() ?></a></li>
                                 <li><a href="#tabs-7"><?php $fifu['api']['tab']['variable']() ?></a></li>
                                 <li><a href="#tabs-4"><?php $fifu['api']['tab']['variation']() ?></a></li>
-                                <li><a href="#tabs-8"><?php $fifu['api']['tab']['batch']() ?></a></li>
+                                <li><a href="#tabs-8"><?php $fifu['api']['tab']['batch-product']() ?></a></li>
+                                <li><a href="#tabs-10"><?php $fifu['api']['tab']['batch-category']() ?></a></li>
                                 <li><a href="#tabs-5"><?php $fifu['api']['tab']['post']() ?></a></li>
                                 <li><a href="#tabs-9"><?php $fifu['api']['tab']['documentation']() ?></a></li>
                             </ul>
@@ -4880,9 +4959,15 @@
                                         </th>
                                     </tr>
                                     <tr>
-                                        <th><?php $fifu['api']['endpoint']['batch']() ?></th>
+                                        <th><?php $fifu['api']['endpoint']['batch-product']() ?></th>
                                         <th>
                                             /wp-json/wc/v3/products/batch
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th><?php $fifu['api']['endpoint']['batch-category']() ?></th>
+                                        <th>
+                                            /wp-json/wc/v3/products/categories/batch
                                         </th>
                                     </tr>
                                     <tr>
@@ -5069,7 +5154,14 @@
 
                             <div id="tabs-8">
 
-                                <iframe src="<?php echo plugins_url() ?>/featured-image-from-url/admin/html/txt/batch.txt"
+                                <iframe src="<?php echo plugins_url() ?>/featured-image-from-url/admin/html/txt/batch-product.txt"
+                                        width="100%" height="535px" ></iframe>
+
+                            </div>
+
+                            <div id="tabs-10">
+
+                                <iframe src="<?php echo plugins_url() ?>/featured-image-from-url/admin/html/txt/batch-category.txt"
                                         width="100%" height="535px" ></iframe>
 
                             </div>
