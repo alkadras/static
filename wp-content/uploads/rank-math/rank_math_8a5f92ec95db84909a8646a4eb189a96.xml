@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//krononot.com/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//ar.krononot.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://krononot.com/</loc>
+		<loc>https://ar.krononot.com/</loc>
 	</url>
 	<url>
-		<loc>https://krononot.com/ornek-sayfa/</loc>
-		<lastmod>2022-04-06T21:05:49+02:00</lastmod>
+		<loc>https://ar.krononot.com/deneme-2/</loc>
+		<lastmod>2022-03-24T15:05:22+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://ar.krononot.com/arapca-gizlilik/</loc>
+		<lastmod>2022-03-24T13:40:24+02:00</lastmod>
+	</url>
+	<url>
+		<loc>https://ar.krononot.com/%D9%85%D8%AB%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D8%B5%D9%81%D8%AD%D8%A9/</loc>
+		<lastmod>2022-03-24T02:07:25+02:00</lastmod>
 	</url>
 </urlset>
