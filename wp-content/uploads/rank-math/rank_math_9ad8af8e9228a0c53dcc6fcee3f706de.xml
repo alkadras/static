@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//ar.krononot.com/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//krononot.com/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://ar.krononot.com/post-sitemap.xml</loc>
+		<loc>https://krononot.com/post-sitemap.xml</loc>
 		<lastmod>2022-04-10T18:55:48+02:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://ar.krononot.com/page-sitemap.xml</loc>
+		<loc>https://krononot.com/page-sitemap.xml</loc>
 		<lastmod>2022-03-24T15:05:22+02:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://ar.krononot.com/category-sitemap.xml</loc>
+		<loc>https://krononot.com/category-sitemap.xml</loc>
 		<lastmod>2022-04-10T18:55:48+02:00</lastmod>
 	</sitemap>
 </sitemapindex>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//ar.krononot.com/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//krononot.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://ar.krononot.com/</loc>
+		<loc>https://krononot.com/</loc>
 	</url>
 	<url>
-		<loc>https://ar.krononot.com/2022-%d8%a3%d9%81%d8%b6%d9%84-%d8%b1%d8%a7%d9%88%d8%aa%d8%b1-%d9%88%d8%a7%d9%8a-%d9%81%d8%a7%d9%8a-%d9%85%d9%86%d8%a7%d8%b3%d8%a8-%d9%84%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85%d9%8a%d9%86-%d8%a7/</loc>
+		<loc>https://krononot.com/2022-%d8%a3%d9%81%d8%b6%d9%84-%d8%b1%d8%a7%d9%88%d8%aa%d8%b1-%d9%88%d8%a7%d9%8a-%d9%81%d8%a7%d9%8a-%d9%85%d9%86%d8%a7%d8%b3%d8%a8-%d9%84%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85%d9%8a%d9%86-%d8%a7/</loc>
 		<lastmod>2022-04-10T18:55:48+02:00</lastmod>
 		<image:image>
-			<image:loc>https://ar.krononot.com/wp-content/uploads/2022/04/5594779-1024x576.jpg</image:loc>
+			<image:loc>https://krononot.com/wp-content/uploads/2022/04/5594779-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
